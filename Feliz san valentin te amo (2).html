@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz san valentin mi Isabellita preciosa </title>
+    <meta name="description" content="Una página especial para Valentina, llena de amor y recuerdos.">
+    <style>
+        :root {
+            --primary-color: #d63384;
+            --secondary-color: #ffdde1;
+            --accent-color: #ff69b4;
+            --text-color: #333;
+            --white: #fff;
+        }
+
+        body {
+            background-color: var(--secondary-color);
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: var(--white);
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .message {
+            font-size: 1.2rem;
+            margin-top: 20px;
+            color: var(--text-color);
+        }
+
+        .gallery-section {
+            margin-top: 40px;
+        }
+
+        .gallery-title {
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+        }
+
+        .photo-gallery, .video-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .photo-gallery img, .video-gallery video {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 2px solid var(--primary-color);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .photo-gallery img:hover, .video-gallery video:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .heart {
+            font-size: 2rem;
+            animation: pulse 1s infinite alternate;
+            color: var(--accent-color);
+            margin-top: 20px;
+        }
+
+        @keyframes pulse {
+            from { transform: scale(1); }
+            to { transform: scale(1.2); }
+        }
+
+        /* Mejoras de accesibilidad */
+        a:focus, button:focus, img:focus, video:focus {
+            outline: 2px solid var(--primary-color);
+            outline-offset: 2px;
+        }
+
+        /* Responsividad adicional */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .message {
+                font-size: 1rem;
+            }
+
+            .photo-gallery, .video-gallery {
+                grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Para mi hermosa Valentina ❤️</h1>
+        <p class="message">Eres mi alegría, mi razón de sonreír cada día. Te amo con todo mi corazón. 💖</p>
+
+        <div class="gallery-section">
+            <div class="gallery-title">Galería de Fotos</div>
+            <div class="photo-gallery" id="photo-gallery">
+                <!-- Espacios para fotos -->
+                <img src="media web/IMG-20250214-WA0002.jpg" alt="Nuestra foto 1" loading="lazy">
+                <img src="media web/IMG-20250214-WA0006.jpg" alt="Nuestra foto 2" loading="lazy">
+                <img src="media web/Imagen de WhatsApp 2025-02-14 a las 23.17.58_9a47d178.jpg" alt="Nuestra foto 3" loading="lazy">
+                <!-- Agrega más fotos aquí -->
+            </div>
+        </div>
+
+        <div class="gallery-section">
+            <div class="gallery-title">Galería de Videos</div>
+            <div class="video-gallery" id="video-gallery">
+                <!-- Espacios para videos -->
+                <video controls>
+                    <source src="media web/VID-20250214-WA0001.mp4" type="video/mp4">
+                    Tu navegador no soporta el video.
+                </video>
+                <video controls>
+                    <source src="media web/VID-20250214-WA0002.mp4" type="video/mp4">
+                    Tu navegador no soporta el video.
+                </video>
+                <video controls>
+                    <source src="media web/VID-20250214-WA0003.mp4" type="video/mp4">
+                    Tu navegador no soporta el video.
+                </video>
+                <video controls> 
+                <source src="media web/VID-20250214-WA0004.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+        <p class
+        <div class="container">
+            <h1>Para mi hermosa Valentina ❤️</h1>
+            <p class="poem">
+                Si pudiera atrapar la luna,<br>
+                la pondría en tus manos con dulzura.<br>
+                Cada rayo de luz, cada destello,<br>
+                reflejaría el amor que por ti siento.<br><br>
+                Eres mi alba y mi atardecer,<br>
+                la brisa suave que me hace renacer.<br>
+                En cada latido, en cada suspiro,<br>
+                mi amor por ti crece infinito. ❤️
+
+        <!-- Corazón animado -->
+        <p class="heart" aria-label="Corazón latiendo">❤️</p>
+    </div>
+</body>
+</html>
